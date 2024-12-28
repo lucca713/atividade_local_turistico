@@ -32,13 +32,22 @@ span {
  }
 
  .img_primeiro_local_turistico{
+    margin: 30px;
     border-radius: 30px;
-    float: left;
+   
     margin-right: 30px;
  }
  
- .img_segundo_local_turistico{
-    border-radius: 30px;
-    float: right;
-    margin-right: 30px;
- }
+ footer{
+
+    text-align: center;
+    padding-top: 28px;
+    margin-bottom: 48px;
+}
+
+/*aplicando o css na raiz do arquivo, ai muda para todos*/
+:root{
+    font-family: "Alice", serif;
+    font-style: normal;
+    line-height: 150%;
+} 
