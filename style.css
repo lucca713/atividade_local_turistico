@@ -1,0 +1,36 @@
+
+.container{
+    border: 30px;
+    background-color: blueviolet;
+}
+
+span {
+    padding-left: 60px;
+    width: 50px;
+    font-size: 25px;
+}
+
+.config_img_banner{
+    width: 50%;
+    margin: 20px;
+    border-radius: 30px;
+    
+}
+
+.row {
+    display: flex;          /* Ativa o Flexbox */
+    flex-wrap: wrap;        /* Permite que os elementos filhos quebrem para a próxima linha */
+    margin-right: -15px;    /* Remove a margem direita para compensar os paddings das colunas */
+    margin-left: -15px;     /* Remove a margem esquerda para compensar os paddings das colunas */
+  }
+
+  .primeira_decricao{
+    background-color: red;
+    width: 100%;
+  }
+
+  .segunda_decricao{
+    background-color: green;
+    width: 100%;
+  }
+  
