@@ -1,7 +1,7 @@
 
 .container{
     border: 30px;
-    background-color: blueviolet;
+    ;
 }
 
 span {
@@ -20,21 +20,16 @@ span {
 
 
   .primeira_decricao{
-    background-color: red;
+    b
     margin: 30px;
   }
 
 
- .img_local_turistico{
-    border-radius: 30px;
-    width: 60%;
-
- }
+ 
 
  .img_primeiro_local_turistico{
     margin: 30px;
     border-radius: 30px;
-   
     margin-right: 30px;
  }
  
