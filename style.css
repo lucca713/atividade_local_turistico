@@ -17,20 +17,28 @@ span {
     
 }
 
-.row {
-    display: flex;          /* Ativa o Flexbox */
-    flex-wrap: wrap;        /* Permite que os elementos filhos quebrem para a próxima linha */
-    margin-right: -15px;    /* Remove a margem direita para compensar os paddings das colunas */
-    margin-left: -15px;     /* Remove a margem esquerda para compensar os paddings das colunas */
-  }
+
 
   .primeira_decricao{
     background-color: red;
-    width: 100%;
+    margin: 30px;
   }
 
-  .segunda_decricao{
-    background-color: green;
-    width: 100%;
-  }
-  
+
+ .img_local_turistico{
+    border-radius: 30px;
+    width: 60%;
+
+ }
+
+ .img_primeiro_local_turistico{
+    border-radius: 30px;
+    float: left;
+    margin-right: 30px;
+ }
+ 
+ .img_segundo_local_turistico{
+    border-radius: 30px;
+    float: right;
+    margin-right: 30px;
+ }
